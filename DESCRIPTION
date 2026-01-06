@@ -27,3 +27,5 @@ Suggests:
     rmarkdown,
     xgboost
 Config/testthat/edition: 3
+URL: https://github.com/rsalan1366/trgimra
+BugReports: https://github.com/rsalan1366/trgimra/issues
