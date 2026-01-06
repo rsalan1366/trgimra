@@ -1,0 +1,29 @@
+Package: trgimra
+Type: Package
+Title: TRGI-MRA++: Topological Renormalization Multi-Resolution Additive Learning
+Version: 0.1.0
+Authors@R:
+    person("Md. Sifat", "Ar Salan",
+           email = "rsalan1366@gmail.com",
+           role = c("aut", "cre"))
+Description: Implements TRGI-MRA++, a multi-resolution additive learning
+    framework for mixed-type data based on topology-aware coarse-graining,
+    orthogonal residualization, spectral roughness gating, and automatic
+    micro-model selection.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    mgcv,
+    ranger,
+    cluster,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown,
+    xgboost
+Config/testthat/edition: 3
